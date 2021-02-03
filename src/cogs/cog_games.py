@@ -9,7 +9,7 @@ def setup(client):
 
 class GamesCommands(commands.Cog):
     def __init__(self, client):
-        """ Main commands of the bot, helps create channels and roles for given games."""
+        """Main commands of the bot, helps create channels and roles for given games."""
         self.client = client
 
     @commands.command()
