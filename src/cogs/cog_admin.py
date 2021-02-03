@@ -8,7 +8,7 @@ def setup(client):
 
 class AdminCommands(commands.Cog):
     def __init__(self, client):
-        """ Basic admin commands"""
+        """Basic admin commands"""
         self.client = client
 
     @commands.command()
