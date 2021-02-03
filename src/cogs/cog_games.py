@@ -33,7 +33,7 @@ class GamesCommands(commands.Cog):
 
     @commands.command(aliases=['gl', 'gamesList'])
     async def list_games(self, ctx):
-        embed = discord.Embed(title="**Games List**", description="Games played here :")
+        embed = discord.Embed(title="**Games List**", description="Games played in here :")
         embed.set_thumbnail(url="https://images.emojiterra.com/twitter/v13.0/512px/1f3ae.png")
         for game in await tools.get_all_roles(ctx):
             if game.name not in ["bots-factory", "@everyone"]:
